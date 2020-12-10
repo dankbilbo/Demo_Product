@@ -10,6 +10,7 @@ public class Controller {
         category.setName("demo cate");
         product1.setId(1);
         product1.setCategory(category);
+        products.add(product1);
     }
     public void showCategory(){
         for (Product product : products){
